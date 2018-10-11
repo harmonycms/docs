@@ -1,5 +1,5 @@
 ---
-description: This bundle provide a theme management system for HarmonyCMS.
+description: Theme management system for HarmonyCMS.
 ---
 
 # ThemeBundle

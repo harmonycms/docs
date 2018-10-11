@@ -1,8 +1,12 @@
 ---
-description: Tool to install and manage dependencies of an HarmonyCMS project.
+description: >-
+  A Composer plugin to manage Harmony's Projects and configuration for
+  extensions,packages, themes and translations.
 ---
 
 # HarmonyFlex
+
+
 
 {% hint style="info" %}
 Based on the same idea as **Symfony Flex**, [HarmonyFlex](https://github.com/harmonycms/flex) is the _only_ way to install and manage your HarmonyCMS application.  
