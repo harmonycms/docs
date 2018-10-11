@@ -1,6 +1,6 @@
 # What is HarmonyCMS?
 
-Harmony is a free, open-source CMS platform based on the Symfony 4 Content Management Framework.  
+Harmony is a free, open-source CMS platform based on the Symfony 4 Framework.  
 HarmonyCMS has been created because we believe some things could work different than conventional CMSs.  
 In HarmonyCMS there’s a lot of discussion, reflection and experience.  
 We made a lot of decisions and want to give you a short overview on why we chose to do things the way we do them.
