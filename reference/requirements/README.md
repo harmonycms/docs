@@ -12,5 +12,3 @@ This page describes the requirements your system needs to fulfill when you run H
 
 {% page-ref page="client-side-requirements.md" %}
 
-{% page-ref page="requirement-checker.md" %}
-

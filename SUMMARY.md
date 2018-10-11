@@ -22,7 +22,8 @@
   * [WebProfilerBundle](bundles/webprofilerbundle/README.md)
     * [Installation](bundles/webprofilerbundle/installation.md)
 * [Components](components/README.md)
-  * [HarmonyFlex](components/harmonyflex.md)
+  * [HarmonyFlex](components/harmonyflex/README.md)
+    * [Harmomy Flex Server](components/harmonyflex/harmomy-flex-server.md)
 * [The REST API Reference](the-rest-api-reference/README.md)
   * [Introduction](the-rest-api-reference/introduction.md)
   * [Authorization](the-rest-api-reference/authorization.md)
@@ -37,5 +38,4 @@
   * [Requirements](reference/requirements/README.md)
     * [Server-side Requirements](reference/requirements/server-side-requirements.md)
     * [Client-side Requirements](reference/requirements/client-side-requirements.md)
-    * [Requirement checker](reference/requirements/requirement-checker.md)
 
