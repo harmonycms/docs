@@ -9,33 +9,17 @@ description: >-
 ### What is HarmonyFlex?
 
 Based on the same idea as **Symfony Flex**, [HarmonyFlex](https://github.com/harmonycms/flex) is the _only_ way to install and manage your HarmonyCMS application.  
-HarmonyFlex is a command line tool to automates installation, configuration, deployment of addons \(extensions, packages, themes and translations\) and other Composer dependencies.  
-HarmonyFlex modifies the behavior of some commands such as `create-project` , `require` and `update` commands.
+HarmonyFlex is a command line tool to automates installation, configuration, deployment of addons \(extensions, packages, themes and translations\) and other Composer dependencies \(default scope\).
 
 ### How does it work?
 
-When creating a new project, HarmonyFlex will perform some tasks before and after the execution of the default Composer tasks.
+HarmonyFlex is a Composer plugin who is loaded when the user \(_you_\) execute some Composer commands. This plugin, modify the behavior of some commands such as `create-project`, `require`, `remove` and `update` by running new automated tasks to prevent the end user \(_still you_\) to perform manual actions.
 
-Consider the following example:
+To have more details on how this plugin modify the behavior of the Composer tool, check the next articles here:
 
-```bash
-composer create-project harmony/skeleton my-project
-```
-
-If you execute that command, first of all Composer will create a new project from [HarmonyCMS skeleton repository](https://github.com/harmonycms/skeleton).
-
-The first think Composer will do is loading HarmonyFlex plugin and processed like follow:
-
-* Check connectivity to HarmonyCMS API:
-
-![](../../.gitbook/assets/deepinscreenshot_20181012113441.png)
-
-* Authenticate you trough our Harmony platform, using an OAuth2 Access Token
-* Ask you to specify a Project ID
-* Processed installing your project and all dependencies \(addons\) binded to your project
-* Configure your HarmonyCMS project
-
-HarmonyFlex keeps tracks of the project and addons installed in a `harmony.lock` file, which must be committed to your code repository.
+* [Create project](create-project.md)
+* [Require/Install](install.md)
+* [Remove/Uninstall](remove.md)
 
 {% hint style="warning" %}
 We use a private proxy/caching flex recipes server, replacing as the default Symfony endpoint to install private recipes.  
