@@ -22,7 +22,7 @@
     * [Theme configuration reference](bundles/themebundle/theme-configuration-reference.md)
   * [WebProfilerBundle](bundles/webprofilerbundle/README.md)
     * [Installation](bundles/webprofilerbundle/installation.md)
-* [Components](components/README.md)
+* [Tools](components/README.md)
   * [HarmonyFlex](components/harmonyflex/README.md)
     * [Harmomy Flex Server](components/harmonyflex/harmomy-flex-server.md)
 * [The REST API Reference](the-rest-api-reference/README.md)

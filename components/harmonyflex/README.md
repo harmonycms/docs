@@ -1,21 +1,19 @@
 ---
 description: >-
-  A Composer plugin to manage Harmony's Projects and configuration for
-  extensions,packages, themes and translations.
+  Composer plugin to manage Harmony's Projects and configuration for extensions,
+  packages, themes and translations.
 ---
 
 # HarmonyFlex
 
+### What is HarmonyFlex?
 
-
-{% hint style="info" %}
 Based on the same idea as **Symfony Flex**, [HarmonyFlex](https://github.com/harmonycms/flex) is the _only_ way to install and manage your HarmonyCMS application.  
-HarmonyFlex is a tool to automates installation, configuration, deployment of addons \(extensions, packages, themes and translations\) and other Composer dependencies.
-{% endhint %}
+HarmonyFlex is a command line tool to automates installation, configuration, deployment of addons \(extensions, packages, themes and translations\) and other Composer dependencies.  
+HarmonyFlex modifies the behavior of some commands such as `create-project` , `require` and `update` commands.
 
-#### How does HarmonyFlex work?
+### How does it work?
 
-HarmonyFlex is a Composer plugin that modifies the behavior of the `create-project` command.  
 When creating a new project, HarmonyFlex will perform some tasks before and after the execution of the default Composer tasks.
 
 Consider the following example:
@@ -35,7 +33,7 @@ After that, HarmonyFlex will make some requests to the HarmonyCMS API server to:
 HarmonyFlex keeps tracks of the project and addons installed in a `harmony.lock` file, which must be committed to your code repository.
 
 {% hint style="warning" %}
-We use a private proxy/caching flex recipes server, used as the default Symfony endpoint to install private by also main/contrib recipes.  
+We use a private proxy/caching flex recipes server, replacing as the default Symfony endpoint to install private recipes.  
 For more information, read the [Harmony Flex Server documentation](harmomy-flex-server.md).
 {% endhint %}
 
