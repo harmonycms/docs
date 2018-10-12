@@ -39,6 +39,6 @@ HarmonyFlex keeps tracks of the project and addons installed in a `harmony.lock`
 
 {% hint style="warning" %}
 We use a private proxy/caching flex recipes server, replacing as the default Symfony endpoint to install private recipes.  
-For more information, read the [Harmony Flex Server documentation](harmomy-flex-server.md).
+For more information, read the [Harmony Flex Server documentation](../harmomy-flex-server.md).
 {% endhint %}
 
