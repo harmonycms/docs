@@ -25,7 +25,8 @@ The first think Composer will do is loading HarmonyFlex plugin and processed lik
 * Authenticate you trough our Harmony platform, using an OAuth2 Access Token
 * Ask you to specify a Project ID
 * Processed installing your project and all dependencies \(addons\) binded to your project
-* Configure your HarmonyCMS project
+* Configure your HarmonyCMS project:
+  * Updating files `.env.dist` and `.env` with project's database settings
 
 HarmonyFlex keeps tracks of the project and addons installed in a `harmony.lock` file, which must be committed to your code repository.
 
