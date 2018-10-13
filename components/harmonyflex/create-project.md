@@ -22,7 +22,7 @@ The first think Composer will do is loading HarmonyFlex plugin and processed lik
 
 ![](../../.gitbook/assets/deepinscreenshot_20181012113441.png)
 
-* Authenticate you trough our Harmony platform, using an OAuth2 Access Token
+* Authenticate you trough our Harmony platform, using an [OAuth2 Access Token](https://harmonycms.gitbook.io/platform/account/api-access)
 * Ask you to specify a Project ID
 * Processed installing your project and all dependencies \(addons\) binded to your project
 * Configure your HarmonyCMS project:
