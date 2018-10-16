@@ -2,7 +2,7 @@
 
 ### Requirements
 
-* PHP &gt;= 7.1.3
+* PHP **&gt;=7.1.3**
 * harmony/core-bundle
 * [pagerfanta/pagerfanta](https://packagist.org/packages/pagerfanta/pagerfanta) ^2.0
 * [twig/extensions](https://packagist.org/packages/twig/extensions) ^1.5
