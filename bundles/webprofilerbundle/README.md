@@ -4,3 +4,5 @@ description: Web profiler bundle adding debug information about HarmonyCMS envir
 
 # WebProfilerBundle
 
+* [Chapter 1. Installation](installation.md)
+
