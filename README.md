@@ -10,7 +10,8 @@ This documentation assumes you have a working knowledge of the Symfony Framework
 
 ### Where do I start?
 
-The best way to get started is to go to the [Installation](getting-started/installation.md) section to install HarmonyCMS on your own server.
+The best way to get started is to go to the [Harmony Platform documentation](https://harmonycms.gitbook.io/platform) to know how Harmony works.  
+After that, you can go to the [Installation](getting-started/installation.md) section to install HarmonyCMS on your own server.
 
 
 
