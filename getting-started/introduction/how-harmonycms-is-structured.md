@@ -20,23 +20,32 @@ Like explained in the next article [How to Override Symfony's default Directory 
 The HarmonyCMS default directory structure is like:
 
 ```text
-    harmony-cms/
+    my-project/
     ├─ bin/
-    │  └─ console
+    │  ├─ console
+    │  └─ phpunit
     ├─ config/
+    │  ├─ bundles.php
+    │  ├─ packages
+    │  ├─ routes
+    │  ├─ routes.yaml
+    │  └─ services.yaml
+    ├─ extensions/
+    │  ├─ blocks/
+    │  ├─ components/
+    │  ├─ plugins/
+    │  ├─ modules/
+    │  └─ widgets/
     ├─ public/
     │  └─ index.php
     ├─ src/
     │  └─ ...
     ├─ themes/
-    │  ├─ acme
+    │  ├─ acme-theme/
     │  └─ ...
-    ├─ extensions/
-    │  ├─ blocks
-    │  ├─ components
-    │  ├─ plugins
-    │  ├─ modules
-    │  └─ widgets
+    ├─ translations/
+    │  ├─ en/
+    │  └─ ...
     ├─ var/
     │  ├─ cache/
     │  └─ log/
