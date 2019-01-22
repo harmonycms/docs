@@ -11,6 +11,7 @@
 * [Bundles](bundles/README.md)
   * [AdminBundle](bundles/adminbundle/README.md)
     * [Installation](bundles/adminbundle/installation.md)
+    * [How to change the URL used to access the backend](bundles/adminbundle/how-to-change-the-url-used-to-access-the-backend.md)
   * [CoreBundle](bundles/corebundle/README.md)
     * [Installation](bundles/corebundle/installation.md)
   * [ThemeBundle](bundles/themebundle/README.md)
