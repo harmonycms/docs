@@ -1,19 +1,5 @@
 # Theme configuration reference
 
-**theme**
-
-**type**: `string` **default**: `default`  
-The theme used to render the frontend pages.
-
-{% code-tabs %}
-{% code-tabs-item title="theme.yaml" %}
-```yaml
-harmony:
-  theme: 'default'
-```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
-
 #### Templating
 
 The ThemeBundle provides a number of functions to use in templates.
@@ -28,10 +14,4 @@ The ThemeBundle provides a number of functions to use in templates.
 | Twig Filter | Templating Helper | Arguments | Explanation |
 | :--- | :--- | :--- | :--- |
 | `theme` | _getThemeUrl_ | string $path, string $packageName = null | A Twig filter to get assets from a theme path. |
-
-**Global Variables**
-
-| Variable Name | Explanation |
-| :--- | :--- |
-| `harmony.site_name` | Get the site name defined in the parameter's file _harmony.yaml_ |
 
