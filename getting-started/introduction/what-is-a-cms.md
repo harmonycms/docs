@@ -9,7 +9,7 @@ A CMS, shorts for _Content Management System_ is a web application that makes it
 
 But using a CMS to develop a website can not only greatly reduce the cost to develop the website, but the amount of time required to develop a website as well. Using a CMS will enable the website layout to be quickly designed and applied to the entire website. Content can be dynamically loaded it and created either by dedicated site authors or outsourced. Using a CMS to develop a website will not only ensure a quick initial launch, but will also ensure the website is easy to manage and modify in the future, ensuring easy and cost-effective management throughout the life of the project.
 
-**Beneficts**
+**Benefits**
 
 * You can update your website on your own terms,
 * No HTML knowledge needed,
