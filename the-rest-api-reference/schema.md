@@ -3,7 +3,7 @@
 All API access is over HTTPS, and accessed from [`https://api.harmonycms.net`](https://api.harmonycms.net). All data is sent and received as JSON.
 
 ```bash
-curl -i http://api.harmonycms.net:8082
+curl -i http://api.harmonycms.net
 HTTP/1.1 200 OK
 Server: nginx/1.13.3
 Content-Type: application/json
