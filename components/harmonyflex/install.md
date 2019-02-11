@@ -5,9 +5,9 @@ Here is the details about the different supported package types when Composer re
 
 ### Themes
 
-They are identified by the [Composer type](https://getcomposer.org/doc/04-schema.md#type) `harmony-theme` who install the theme to the next location: `themes/${name}`.
+They are identified by the [Composer type](https://getcomposer.org/doc/04-schema.md#type) `harmony-theme` who install the theme to the next location: `themes/{$vendor}/{$name}`.
 
 ### Translations
 
-They are identified by the [Composer type](https://getcomposer.org/doc/04-schema.md#type) `harmony-translation` who install the translation to the next location: `translations/${name}`.
+They are identified by the [Composer type](https://getcomposer.org/doc/04-schema.md#type) `harmony-translation` who install the translation to the next location: `translations/{$name}`.
 
