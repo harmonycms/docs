@@ -26,22 +26,23 @@ The HarmonyCMS default directory structure is like:
     │  └─ phpunit
     ├─ config/
     │  ├─ bundles.php
+    │  ├─ extensions.php
     │  ├─ packages
     │  ├─ routes
     │  ├─ routes.yaml
-    │  └─ services.yaml
+    │  ├─ services.yaml
+    │  └─ themes.php
     ├─ extensions/
-    │  ├─ blocks/
-    │  ├─ components/
-    │  ├─ plugins/
-    │  ├─ modules/
-    │  └─ widgets/
+    │  ├─ harmony/
+    │  │  └─ acme-demo/
+    │  └─ ...
     ├─ public/
     │  └─ index.php
     ├─ src/
     │  └─ ...
     ├─ themes/
-    │  ├─ acme-theme/
+    │  ├─ harmony/
+    │  │  └─ acme-theme/
     │  └─ ...
     ├─ translations/
     │  ├─ en/
@@ -50,6 +51,7 @@ The HarmonyCMS default directory structure is like:
     │  ├─ cache/
     │  └─ log/
     ├─ vendor/
+    │  └─ ...
     └─ composer.json
 ```
 
