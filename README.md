@@ -1,6 +1,6 @@
 # Welcome
 
-### What is HarmonyCMS?
+## What is HarmonyCMS?
 
 HarmonyCMS is a free, open-source, self-hosted content management system platform based on **Symfony 4.2** framework.
 
@@ -8,10 +8,14 @@ HarmonyCMS is a free, open-source, self-hosted content management system platfor
 This documentation assumes you have a working knowledge of the Symfony Framework. If you’re not familiar with Symfony, please start with reading the [Quick Tour](http://symfony.com/doc/current/quick_tour) from the Symfony documentation.
 {% endhint %}
 
-### Where do I start?
+## Where do I start?
 
 The best way to get started is to go to the [Harmony Platform documentation](https://docs-platform.harmonycms.net) to know how Harmony works.  
 After that, you can go to the [Installation](getting-started/installation.md) section to install HarmonyCMS on your own server.
+
+## Couldn’t find what your are looking for?
+
+Why not join our support chat and let us help you. Connect through [our community on Gitter](https://gitter.im/harmonycms/community)
 
 
 
