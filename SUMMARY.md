@@ -36,5 +36,6 @@
   * [Requirements](reference/requirements/README.md)
     * [Server-side Requirements](reference/requirements/server-side-requirements.md)
     * [Client-side Requirements](reference/requirements/client-side-requirements.md)
+  * [Troubleshooting](reference/troubleshooting.md)
 * [Web Assets](web-assets.md)
 

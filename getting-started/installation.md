@@ -16,13 +16,5 @@ composer create-project harmony/skeleton:dev-master my-project
 
 This will create a new `my-project` directory, download all needed dependencies into it and generate the basic HarmonyCMS structure directories and files you'll need to have a complete functional project. In other words, your new new website will be ready!
 
-### Memory limit errors <a id="memory-limit-errors"></a>
-
-Installation may sometimes fail on some commands with this message:
-
-```text
-PHP Fatal error: Allowed memory size of XXXXXX bytes exhausted <...>
-```
-
-In that case, see the [Memory limit errors](https://getcomposer.org/doc/articles/troubleshooting.md#memory-limit-errors) page for Composer.
+###  <a id="memory-limit-errors"></a>
 
