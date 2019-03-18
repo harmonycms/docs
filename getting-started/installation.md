@@ -22,17 +22,27 @@ Installation may sometimes fail, see troubleshooting for the [Memory limit error
 
 ## 2. Database installation
 
+HarmonyCMS is currently supporting SQL and No-SQL databases. To do that, this CMS is fully decoupled from any database system. **This means, you will have to choose between SQL and No-SQL.**
+
 Such has Symfony, HarmonyCMS doesn't provide a component to work with the database, but it _does_ provide tight integration with a third-party library called [Doctrine](http://www.doctrine-project.org/).
 
-### ORM
+### SQL
 
 ```bash
 composer require symfony/orm-pack
 ```
 
-### ODM
+{% hint style="info" %}
+Full documentation available in the [Databases and the Doctrine ORM](https://symfony.com/doc/current/doctrine.html) Symfony page.
+{% endhint %}
+
+### No-SQL
 
 ```bash
 composer require emulienfou/mongodb-pack
 ```
+
+{% hint style="info" %}
+Full documentation available in the [DoctrineMongoDBBundle](https://symfony.com/doc/current/bundles/DoctrineMongoDBBundle/index.html) Symfony page.
+{% endhint %}
 
