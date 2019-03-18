@@ -1,6 +1,6 @@
 # Configuration reference
 
-HarmonyCMS settings are supported by the [Helis Settings Manager Bundle](https://packagist.org/packages/helis/settings-manager-bundle). This means that all settings for HarmonyCMS are stored under: `helis_settings_manager.settings` key.
+HarmonyCMS settings are supported by the [HarmonySettingManagerBundle](https://marketplace.harmonycms.net/package/harmony-settings-manager-bundle). This means that all settings for HarmonyCMS are stored under: `harmony_settings_manager.settings` key.
 
 ### General
 
