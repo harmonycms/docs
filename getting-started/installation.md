@@ -28,17 +28,23 @@ Such has Symfony, HarmonyCMS doesn't provide a component to work with the databa
 
 ### SQL
 
+You will need to install the `symfony/orm-pack` if your database server is one of **MySQL**, **MariaDB**, **Oracle**, **Microsoft SQL Server**, **PostgreSQL**, **SAP Sybase SQL Anywhere**, **SQLite** or **Drizzle** by executing the next command:
+
 ```bash
 composer require symfony/orm-pack
 ```
 
 {% hint style="info" %}
-Full documentation available in the [Databases and the Doctrine ORM](https://symfony.com/doc/current/doctrine.html) Symfony page.
+Full documentation available in the [Databases and the Doctrine ORM](https://symfony.com/doc/current/doctrine.html) Symfony page.  
+The full list of supported platform by Doctrine DBAL are listed [here](https://www.doctrine-project.org/projects/doctrine-dbal/en/2.9/reference/platforms.html).
 {% endhint %}
 
 ### No-SQL
 
+If your database server is MongoDB, you should install the next pack by executing the both commands:
+
 ```bash
+composer config "platform.ext-mongo" "1.6.16"
 composer require emulienfou/mongodb-pack
 ```
 
