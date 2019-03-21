@@ -41,7 +41,7 @@ The full list of supported platform by Doctrine DBAL are listed [here](https://w
 
 ### No-SQL
 
-If your database server is MongoDB, you should install the next pack by executing the both commands:
+If your database server is **MongoDB**, you should install the next pack by executing the both commands:
 
 ```bash
 composer config "platform.ext-mongo" "1.6.16"
