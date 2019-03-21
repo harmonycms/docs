@@ -28,10 +28,10 @@ Such has Symfony, HarmonyCMS doesn't provide a component to work with the databa
 
 ### SQL
 
-You will need to install the `symfony/orm-pack` if your database server is one of **MySQL**, **MariaDB**, **Oracle**, **Microsoft SQL Server**, **PostgreSQL**, **SAP Sybase SQL Anywhere**, **SQLite** or **Drizzle** by executing the next command:
+You will need to install the `emulienfou/orm-pack` if your database server is one of **MySQL**, **MariaDB**, **Oracle**, **Microsoft SQL Server**, **PostgreSQL**, **SAP Sybase SQL Anywhere**, **SQLite** or **Drizzle** by executing the next command:
 
 ```bash
-composer require symfony/orm-pack
+composer require emulienfou/orm-pack
 ```
 
 {% hint style="info" %}
