@@ -20,13 +20,6 @@ This will create a new `my-project` directory, download all needed dependencies 
 Installation may sometimes fail, see troubleshooting for the [Memory limit error](https://docs.harmonycms.net/reference/troubleshooting#memory-limit-errors)
 {% endhint %}
 
-{% hint style="warning" %}
-This pack also provide 2 virtual packages who can be used to require a doctrine database support:
-
-* `doctrine/implementation`
-* `doctrine/orm-implementation`
-{% endhint %}
-
 ## 2. Database installation
 
 HarmonyCMS is currently supporting SQL and No-SQL databases. To do that, this CMS is fully decoupled from any database system. **This means, you will have to choose between SQL and No-SQL.**
@@ -44,6 +37,13 @@ composer require emulienfou/orm-pack
 {% hint style="info" %}
 Full documentation available in the [Databases and the Doctrine ORM](https://symfony.com/doc/current/doctrine.html) Symfony page.  
 The full list of supported platform by Doctrine DBAL are listed [here](https://www.doctrine-project.org/projects/doctrine-dbal/en/2.9/reference/platforms.html).
+{% endhint %}
+
+{% hint style="warning" %}
+This pack also provide 2 virtual packages who can be used to require a doctrine database support:
+
+* `doctrine/implementation`
+* `doctrine/orm-implementation`
 {% endhint %}
 
 ### No-SQL
